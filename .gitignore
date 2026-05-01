@@ -1,0 +1,16 @@
+# VS Code
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables (API keys!)
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
