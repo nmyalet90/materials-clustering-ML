@@ -1,30 +1,40 @@
 # 🔬 Materials Clustering & Exploration App
 
-This project applies machine learning techniques to explore and cluster materials based on their physical properties. It combines data collection, feature engineering, unsupervised learning, and interactive visualization into a complete data science workflow.
+🚀 **Live Demo:** [Open the app](https://materials-clustering-ml-vhvktdwhigosihx9pecgce.streamlit.app/)
+
+---
+
+## 📸 App Preview
+
+[![Open App](assets/screenshot1_app.png)](https://materials-clustering-ml-vhvktdwhigosihx9pecgce.streamlit.app/)
 
 ---
 
 ## 🚀 Project Overview
 
-The goal of this project is to:
+This project applies machine learning techniques to explore and cluster materials based on their physical properties. It combines data collection, feature engineering, unsupervised learning, and interactive visualization into a complete data science workflow.
 
-- Collect materials data from an API
-- Clean and engineer meaningful physical features
-- Apply clustering algorithms to identify patterns
-- Visualize results using interactive tools
-- Build an app for real-time exploration
+---
+
+## 🎯 Business / Scientific Value
+
+This project demonstrates how machine learning can be used to:
+
+- Accelerate materials discovery
+- Identify patterns in high-dimensional physical data
+- Support decision-making in materials science and engineering
 
 ---
 
 ## 📊 Key Features
 
-- 🔍 **Data Collection** from Materials Project API
-- 🧹 **Data Cleaning & Preprocessing**
-- ⚙️ **Feature Engineering** (band gap, density, energy, etc.)
-- 🤖 **Unsupervised Learning (KMeans)** to cluster materials
-- 📉 **Dimensionality Reduction (PCA)** for visualization
-- 🎯 **Cluster Interpretation** (metals, semiconductors, insulators)
-- 🌐 **Interactive App (Streamlit)** with:
+- 🔍 **Data Collection** from Materials Project API  
+- 🧹 **Data Cleaning & Preprocessing**  
+- ⚙️ **Feature Engineering** (band gap, density, energy, etc.)  
+- 🤖 **Unsupervised Learning (KMeans)** to cluster materials  
+- 📉 **Dimensionality Reduction (PCA)** for visualization  
+- 🎯 **Cluster Interpretation** (metals, semiconductors, insulators)  
+- 🌐 **Interactive Web App (Streamlit)** with:
   - Search bar (real-time filtering)
   - Band gap filter
   - Density filter
@@ -35,12 +45,21 @@ The goal of this project is to:
 
 ## 🧠 Machine Learning Approach
 
-- **KMeans Clustering** to group materials based on physical properties
-- **PCA** to reduce dimensionality and visualize clusters in 2D
+- **KMeans Clustering** to group materials based on physical properties  
+- **PCA (Principal Component Analysis)** to reduce dimensionality and visualize clusters in 2D  
 - Clusters naturally correspond to:
-  - Metals
-  - Semiconductors
-  - Insulators
+  - Metals  
+  - Semiconductors  
+  - Insulators  
+
+---
+
+## 🧭 How to Use the App
+
+1. Open the live demo  
+2. Use filters (band gap, density) to explore materials  
+3. Select clusters to analyze different material groups  
+4. Hover over points to see detailed material properties  
 
 ---
 
@@ -48,6 +67,10 @@ The goal of this project is to:
 
 ```bash
 materials-clustering/
+│
+├── assets/
+│ ├── screenshot1_app.png
+│ └── screenshot2_app.png
 │
 ├── data/
 │ ├── raw/
